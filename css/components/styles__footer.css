@@ -1,13 +1,14 @@
 /* FOOTER Class - Settings */
 
 .footer {
-    position: fixed; /* bring the footer on fixed position */
+    position: fixed; /* brings the footer on fixed position */
     bottom: 0px;
     width: 100%; /* important measure to ensure the navigation bar is complete screen size */
     min-height: 8%;
     padding: 4%;
-    background-color: hsla(var(--color-bg-silver) , 0.15);
-    border-color: hsla(var(--color-bg-snow), 1);
+    background-color: hsla(var(--color-bg-blood), 1);
+    /* border-color: hsla(var(--color-bg-snow), 1); */
+    color: hsla(var(--color-txt-snow), 1);
 }
 
 .footer__navigation_menu {
@@ -26,7 +27,7 @@
 }
 
 .footer__navigation_menu_button--active {
-    fill: aqua; /* Filling on clicked/activated */
+    fill: hsla(var(--color-bg-snow), 1); /* Filling on clicked/activated */
 }
 
 

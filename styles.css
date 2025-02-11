@@ -3,4 +3,5 @@
 @import url("./css/generic/styles__themes.css");
 
 /* Styles - Specific */
+@import url("./css/components/styles__header.css");
 @import url("./css/components/styles__footer.css");

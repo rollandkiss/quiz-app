@@ -9,5 +9,5 @@ body {
     font-size: 20px;
 
     margin: 0px; /* Body comes per default with margin - here the modification */
-    background-color: hsl(var(--color-bg-snow));
+    background-color: hsla(var(--color-bg-snow), 1);
 }

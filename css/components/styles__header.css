@@ -1,0 +1,12 @@
+/* HEADER Class - Settings */
+
+.header {
+    /* position: fixed;
+    width: 100%;
+    top: 0px; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: hsla(var(--color-bg-blood), 1);
+    color: hsla(var(--color-txt-snow), 1);
+}
