@@ -2,3 +2,4 @@
 @import url("./css/generic/styles--generic.css");
 
 /* Styles - Specific */
+@import url("./css/components/styles--footer.css");

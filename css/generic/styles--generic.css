@@ -1,4 +1,17 @@
-/* Universal Selector - Settings */
+/* UNIVERSAL Selector - Settings */
 * , *:before, *:after {
     box-sizing: border-box;
+}
+
+/* ROOT Selector - Settings */
+:root {
+    --color-bg-snow: 0, 0%, 100%; /* White */
+}
+
+
+ /* BODY Selector - Settings */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: hsl(var(--color-bg-snow));
 }

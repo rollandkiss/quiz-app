@@ -1,0 +1,28 @@
+/* FOOTER Class - Settings */
+
+.footer {
+
+}
+
+.footer--navigation-menu {
+    background-color: hsl(var(--color-bg-snow));
+    border: 0px;
+    border-color: hsl(var(--color-bg-snow));
+
+    display: flex;
+    flex-flow: row wrap;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer--navigation-menu-button {
+    background-color: hsl(var(--color-bg-snow));
+    border: 1px;
+
+}
+
+/* .footer--totop-button{
+    position: fixed;
+    right: 10px;
+    bottom: 10px
+} */
