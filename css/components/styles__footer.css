@@ -27,7 +27,7 @@
 }
 
 .footer__navigation_menu_button--active {
-    fill: hsla(var(--color-bg-snow), 1); /* Filling on clicked/activated */
+    fill: hsla(var(--color-bg-snow), 1); /* Filling on state:activate */
 }
 
 
