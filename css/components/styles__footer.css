@@ -10,7 +10,7 @@
     border-color: hsla(var(--color-bg-snow), 1);
 }
 
-.footer--navigation-menu {
+.footer__navigation_menu {
     display: flex;
     flex-flow: row wrap;
     gap: 10px;
@@ -19,26 +19,30 @@
     min-height: 40px;
 }
 
-.footer--navigation-menu-button {
+.footer__navigation_menu_button {
     font-size: 1.5rem;
     border-radius: 8px;
     border: 0px;
 }
 
+.footer__navigation_menu_button--active {
+    fill: aqua; /* Filling on clicked/activated */
+}
 
-/* .footer--navigation-menu-button-home {
+
+/* .footer__navigation_menu_button_home {
     background-color: aquamarine;
 }
 
-.footer--navigation-menu-button-bookmarks {
+.footer__navigation_menu_button_bookmarks {
     background-color: blueviolet;
 }
 
-.footer--navigation-menu-button-profile {
+.footer__navigation_menu_button_profile {
     background-color: antiquewhite;
 } */
 
-/* .footer--totop-button{
+/* .footer__totop_button{
     position: fixed;
     right: 10px;
     bottom: 10px

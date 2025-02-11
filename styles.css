@@ -1,5 +1,6 @@
 /* Styles - Generic */
-@import url("./css/generic/styles--generic.css");
+@import url("./css/generic/styles__generic.css");
+@import url("./css/generic/styles__themes.css");
 
 /* Styles - Specific */
-@import url("./css/components/styles--footer.css");
+@import url("./css/components/styles__footer.css");
