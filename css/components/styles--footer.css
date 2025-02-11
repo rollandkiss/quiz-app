@@ -1,25 +1,42 @@
 /* FOOTER Class - Settings */
 
 .footer {
-
+    position: fixed; /* bring the footer on fixed position */
+    bottom: 0px;
+    width: 100%; /* important measure to ensure the navigation bar is complete screen size */
+    min-height: 8%;
+    padding: 4%;
+    background-color: hsla(var(--color-bg-silver) , 0.15);
+    border-color: hsla(var(--color-bg-snow), 1);
 }
 
 .footer--navigation-menu {
-    background-color: hsl(var(--color-bg-snow));
-    border: 0px;
-    border-color: hsl(var(--color-bg-snow));
-
     display: flex;
     flex-flow: row wrap;
-    position: fixed;
-    bottom: 0px;
+    gap: 10px;
+    justify-content: space-evenly;
+
+    min-height: 40px;
 }
 
 .footer--navigation-menu-button {
-    background-color: hsl(var(--color-bg-snow));
-    border: 1px;
-
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 0px;
 }
+
+
+/* .footer--navigation-menu-button-home {
+    background-color: aquamarine;
+}
+
+.footer--navigation-menu-button-bookmarks {
+    background-color: blueviolet;
+}
+
+.footer--navigation-menu-button-profile {
+    background-color: antiquewhite;
+} */
 
 /* .footer--totop-button{
     position: fixed;
