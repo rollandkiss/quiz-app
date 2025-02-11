@@ -1,16 +1,19 @@
-### OSX / Macintosh - General Exclusions ###
+## Operating Systems - General Exclusions ##
+# OSX / Macintosh - General Exclusions #
 .DS_Store
+# Windows - General Exclusions #
+Thumbs.db
 
 
-### VSCode - General Exclusions ###   
-# VSCode - Exclusions: All Subfolders
+## VSCode - General Exclusions ##
+# VSCode - Exclusions: All Subfolders #
 .vscode/**/*
 
-### VSCode - Specific Exclusions ###
-# VSCode - Exceptions: json
+## VSCode - Specific Exclusions ##
+# VSCode - Exceptions: json files #
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-# VSCode - Patches: All local history files
+# VSCode - Patches: All local history files #
 **/.history
