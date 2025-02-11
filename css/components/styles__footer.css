@@ -7,7 +7,6 @@
     min-height: 8%;
     padding: 4%;
     background-color: hsla(var(--color-bg-blood), 1);
-    /* border-color: hsla(var(--color-bg-snow), 1); */
     color: hsla(var(--color-txt-snow), 1);
 }
 
@@ -21,14 +20,40 @@
 
 }
 
-.footer__navigation_menu_button {
-    /* font-size: 1.5rem; */
+/* .footer__navigation_menu_button {
+    fill: none;
+} */
+
+.footer__navigation_menu_button:hover {
+    fill: hsla(var(--color-bg-snow), 1);
+}
+
+.footer__navigation_menu_button:active {
+    fill: hsla(var(--color-bg-snow), 1);
 }
 
 .footer__navigation_menu_button--active {
-    fill: hsla(var(--color-bg-snow), 1); /* Filling on state:activate */
+    
 }
 
+.footer__navigation_menu_button, a:link {
+    color: hsla(var(--color-bg-snow), 1);
+    fill: none;
+}
+
+
+
+/* .footer__navigation_menu_button--active:active, .footer__navigation_menu_button--active:focus-visible {
+    fill: hsla(var(--color-bg-snow), 1);
+}
+
+.footer__navigation_menu_button--active:focus-visible {
+    fill: hsla(var(--color-bg-snow), 1);
+}
+
+.footer__navigation_menu_button--active:active, a:link {
+    color: hsla(var(--color-bg-sun), 1);
+} */
 
 /* .footer__navigation_menu_button_home {
     background-color: aquamarine;
