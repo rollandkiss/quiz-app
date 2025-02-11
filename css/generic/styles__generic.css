@@ -1,0 +1,13 @@
+/* UNIVERSAL Selector - Settings */
+* , *:before, *:after {
+    box-sizing: border-box;
+}
+
+ /* BODY Selector - Settings */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+    margin: 0px; /* Body comes per default with margin - here the modification to no margin */
+    background-color: hsla(var(--color-bg-snow), 1);
+}

@@ -1,0 +1,50 @@
+/* FOOTER Class - Settings */
+
+.footer {
+    position: fixed; /* brings the footer on fixed position */
+    bottom: 0px;
+    width: 100%; /* important measure to ensure the navigation bar is complete screen size */
+    min-height: 8%;
+    padding: 4%;
+    background-color: hsla(var(--color-bg-blood), 1);
+    /* border-color: hsla(var(--color-bg-snow), 1); */
+    color: hsla(var(--color-txt-snow), 1);
+}
+
+.footer__navigation_menu {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+
+    min-height: 40px;
+}
+
+.footer__navigation_menu_button {
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.footer__navigation_menu_button--active {
+    fill: hsla(var(--color-bg-snow), 1); /* Filling on state:activate */
+}
+
+
+/* .footer__navigation_menu_button_home {
+    background-color: aquamarine;
+}
+
+.footer__navigation_menu_button_bookmarks {
+    background-color: blueviolet;
+}
+
+.footer__navigation_menu_button_profile {
+    background-color: antiquewhite;
+} */
+
+/* .footer__totop_button{
+    position: fixed;
+    right: 10px;
+    bottom: 10px
+} */
